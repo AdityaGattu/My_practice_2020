@@ -1,0 +1,3 @@
+Thanks for registering......   
+     This is to inform that you have been confirmed 
+for the GCP Study Jam session conducted by DSC SASTRA on 13th and 14th of march 2020.As we have limited number of seats,make sure you be on time because seats are allocated based on first cum first serve basis.Don't forget to bring your laptops!!!Time: 4.30 to 5:30 pmVenue:ASK 1 Room No 308 With Best Regards,SASTRA TBI & Team DSC SASTRA.
