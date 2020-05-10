@@ -1,0 +1,12 @@
+gsutil mb -p qwiklabs-gcp-01-9caf1777dbf1 gs://aditya9
+
+gcloud functions deploy helloWorld \
+  --stage-bucket aditya9 \
+  --trigger-topic hello_world \
+  --runtime nodejs6
+  
+  
+gcloud functions deploy helloWorld \
+  --stage-bucket aditya9 \
+  --trigger-topic hello_world \
+  --runtime nodejs6

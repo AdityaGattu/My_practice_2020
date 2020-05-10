@@ -1,0 +1,23 @@
+gsutil mb gs://ad7/
+
+
+
+
+wget --output-document ada.jpg https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/800px-Ada_Lovelace_portrait.jpg
+
+gsutil cp ada.jpg gs://ad7
+
+rm ada.jpg
+
+gsutil cp -r gs://ad7/ada.jpg .
+
+gsutil cp gs://ad7/ada.jpg gs://ad7/image-folder/
+
+
+
+
+
+
+gsutil acl ch -u AllUsers:R gs://ad7/ada.jpg
+
+gsutil rm gs://ad7/ada.jpg
